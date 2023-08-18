@@ -1,0 +1,28 @@
+_id: req_b89d2e72ce554692a7c9d0f447c3d734
+type: Request
+parentId: wrk_31ba3d9c79ee4e9d9c4150cbe2a80f4f
+modified: 1692364135440
+created: 1692364011009
+url: "{{ base_url }}/dinosaurs"
+name: List all Dinosaurs (Copy)
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: limit
+    disabled: true
+    value: "0"
+headers: []
+authentication:
+  type: apikey
+  key: api_key_by_me
+  value: test
+  addTo: header
+metaSortKey: -1000000000
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

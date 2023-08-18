@@ -1,0 +1,14 @@
+_id: env_454ed105aba7a32c1db6c4e1faf51c4780cb2a1d
+type: Environment
+parentId: wrk_31ba3d9c79ee4e9d9c4150cbe2a80f4f
+modified: 1692364060592
+created: 1692363912595
+name: Base Environment
+data:
+  base_url: https://mockbin.org/request/any
+dataPropertyOrder:
+  "&":
+    - base_url
+color: null
+isPrivate: false
+metaSortKey: 1692363912595

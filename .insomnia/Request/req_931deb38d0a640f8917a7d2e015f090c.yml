@@ -1,0 +1,35 @@
+_id: req_931deb38d0a640f8917a7d2e015f090c
+type: Request
+parentId: wrk_31ba3d9c79ee4e9d9c4150cbe2a80f4f
+modified: 1692364132860
+created: 1692364001842
+url: "{{ base_url }}/dinosaurs"
+name: Create a Dinosaur (Copy)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": "{% uuid 'v4' %}",
+    	"name": "Velociraptor {% now 'unix', '' %}"
+
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_cb7c79fd3c574217aa4857884e1692b7
+authentication:
+  type: apikey
+  key: api_key_by_me
+  value: test
+  addTo: header
+metaSortKey: -1000000000
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
